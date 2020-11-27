@@ -1,0 +1,254 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body {
+  font-family: Roboto;
+  background-color: #ffffff;
+}
+/* NAV STYLING */
+div #logo {
+  margin: 20px 10px 10px 0px;
+  border: 3px solid #4caf50;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+}
+#logo span {
+  color: darkgreen;
+  font-weight: bold;
+  margin-left: -29px;
+  padding-right: 5px;
+}
+#navlist {
+  margin: 20px 0px 20px 20px;
+}
+.navbarcall {
+  padding-top: 15px;
+  padding-right: 0px;
+}
+.navbarcall a {
+  color: black;
+  font-size: 15px;
+  border-bottom: 1px solid #000;
+}
+
+#active {
+  font-weight: bold;
+  color: #fff !important;
+  background-color: rgb(192, 211, 192);
+  border-radius: 5px;
+}
+/* main body styling */
+/* carousel styling */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  height: 520px !important;
+  width: 100%;
+}
+
+#caro {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#caro h1 {
+  margin-bottom: 30px;
+}
+#caro p {
+  margin-bottom: 60px;
+}
+/* after-nav styling */
+#welcome {
+  color: #f4f4f4;
+  text-align: center;
+  min-height: 400px;
+  width: 100%;
+  background: url(img/blue-room.jpg);
+  background-position: bottom center;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+#other-welcome p {
+  margin-top: 20px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+}
+/* Home page stylng */
+#introduction h2 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  /* font-family: 'crimson Text' */
+}
+#introduction p {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+#introduction img {
+  margin-top: 55px;
+  margin-left: 22px;
+}
+#introduction h4 {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+}
+#view-room h5 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2em;
+}
+#view-room p {
+  text-align: center;
+}
+#room p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #2a2a2a;
+}
+/* ROOM AND SUIT STYLING
+  1 golden styling */
+#room-booking h1 {
+  font-weight: bold;
+}
+
+#mo li a {
+  font-weight: bolder;
+  font-size: 13px;
+}
+#Reserve-a-room h3 {
+  font-weight: bold;
+}
+#description-list {
+  margin-bottom: 30px;
+}
+#description-list p {
+  font-weight: bolder;
+}
+#description-body p {
+  text-align: justify;
+  color: #5a5a5a;
+}
+#additional-information p {
+  text-align: justify;
+}
+#Room-amenities {
+  background-color: #e6e6e6;
+  padding-bottom: 10px;
+}
+#Room-amenities h4 {
+  padding-top: 14px;
+}
+#Room-amenities p {
+  text-align: left;
+  padding: 0px 20px 0px 0px;
+}
+#Room-amenities span {
+  margin-right: 5px;
+}
+#other-room p {
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 15px;
+}
+table,
+th {
+  text-align: center !important;
+}
+
+/* contact styling */
+
+#contact p {
+  text-align: center;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+#contact h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Reservation page styling */
+
+#heading-secondary {
+  text-align: center;
+}
+#heading-secondary h1 {
+  font-weight: bold;
+}
+hr {
+  border-bottom: 3px solid #ccc;
+}
+#other-welcome {
+  margin-top: -19px;
+}
+#other-welcome h1 {
+  margin-top: 130px;
+  font-size: 60px;
+}
+#more-info p {
+  text-align: justify;
+  color: #5a5a5a;
+  line-height: 1.5em;
+}
+#more-info,
+p,
+h4,
+span,
+h3 {
+  padding-left: 35px;
+}
+#more-info ul li {
+  line-height: 1.5em;
+  color: #5a5a5a;
+}
+#more-info h3,
+h4 {
+  font-weight: bold;
+}
+
+/* footer styling */
+footer {
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #337ab7;
+}
+footer p {
+  padding: 40px 0px 24px 0px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  #welcome {
+    margin-top: -19px;
+  }
+  #welcome h1,
+  #other-welome h1 {
+    margin-top: 120px;
+    line-height: 1.2em;
+    text-align: center;
+  }
+  #welcome p,
+  #other-welome p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  #introduction img {
+    margin-top: 30px;
+  }
+  #room-booking h1 {
+    text-align: center;
+  }
+}
